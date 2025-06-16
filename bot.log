@@ -1,0 +1,52 @@
+2025-06-16 04:44:24,267 - INFO - Start polling
+2025-06-16 04:44:24,468 - INFO - Run polling for bot @RassilkaGD_bot id=7400671220 - 'Rassilka'
+2025-06-16 04:44:24,512 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:24,512 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7400671220)
+2025-06-16 04:44:28,547 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:28,547 - WARNING - Sleep for 1.371462 seconds and try again... (tryings = 1, bot id = 7400671220)
+2025-06-16 04:44:29,960 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:29,960 - WARNING - Sleep for 1.838503 seconds and try again... (tryings = 2, bot id = 7400671220)
+2025-06-16 04:44:34,915 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:34,916 - WARNING - Sleep for 2.371355 seconds and try again... (tryings = 3, bot id = 7400671220)
+2025-06-16 04:44:37,323 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:37,323 - WARNING - Sleep for 3.115819 seconds and try again... (tryings = 4, bot id = 7400671220)
+2025-06-16 04:44:40,472 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:40,472 - WARNING - Sleep for 4.102733 seconds and try again... (tryings = 5, bot id = 7400671220)
+2025-06-16 04:44:44,613 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:44,613 - WARNING - Sleep for 4.946819 seconds and try again... (tryings = 6, bot id = 7400671220)
+2025-06-16 04:44:49,604 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:49,604 - WARNING - Sleep for 4.908232 seconds and try again... (tryings = 7, bot id = 7400671220)
+2025-06-16 04:44:54,546 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:54,546 - WARNING - Sleep for 4.928775 seconds and try again... (tryings = 8, bot id = 7400671220)
+2025-06-16 04:44:59,521 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:44:59,521 - WARNING - Sleep for 5.030154 seconds and try again... (tryings = 9, bot id = 7400671220)
+2025-06-16 04:45:04,589 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:04,589 - WARNING - Sleep for 5.048774 seconds and try again... (tryings = 10, bot id = 7400671220)
+2025-06-16 04:45:09,712 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:09,712 - WARNING - Sleep for 4.949292 seconds and try again... (tryings = 11, bot id = 7400671220)
+2025-06-16 04:45:14,700 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:14,700 - WARNING - Sleep for 4.928048 seconds and try again... (tryings = 12, bot id = 7400671220)
+2025-06-16 04:45:19,663 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:19,663 - WARNING - Sleep for 5.170194 seconds and try again... (tryings = 13, bot id = 7400671220)
+2025-06-16 04:45:24,852 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:24,853 - WARNING - Sleep for 4.764788 seconds and try again... (tryings = 14, bot id = 7400671220)
+2025-06-16 04:45:29,653 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:29,653 - WARNING - Sleep for 4.895580 seconds and try again... (tryings = 15, bot id = 7400671220)
+2025-06-16 04:45:34,578 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:34,578 - WARNING - Sleep for 4.974478 seconds and try again... (tryings = 16, bot id = 7400671220)
+2025-06-16 04:45:39,585 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:39,585 - WARNING - Sleep for 5.001635 seconds and try again... (tryings = 17, bot id = 7400671220)
+2025-06-16 04:45:44,603 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:44,604 - WARNING - Sleep for 5.142214 seconds and try again... (tryings = 18, bot id = 7400671220)
+2025-06-16 04:45:49,785 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:49,785 - WARNING - Sleep for 5.019786 seconds and try again... (tryings = 19, bot id = 7400671220)
+2025-06-16 04:45:54,844 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:54,845 - WARNING - Sleep for 4.797953 seconds and try again... (tryings = 20, bot id = 7400671220)
+2025-06-16 04:45:59,674 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-06-16 04:45:59,674 - WARNING - Sleep for 5.002872 seconds and try again... (tryings = 21, bot id = 7400671220)
+2025-06-16 15:21:13,108 - INFO - Start polling
+2025-06-16 15:21:13,389 - INFO - Run polling for bot @RassilkaGD_bot id=7400671220 - 'Rassilka'
+2025-06-16 15:21:13,707 - INFO - Update id=745877468 is handled. Duration 250 ms by bot id=7400671220
+2025-06-16 15:21:22,998 - INFO - Update id=745877469 is handled. Duration 187 ms by bot id=7400671220
+2025-06-16 15:26:57,328 - INFO - Polling stopped
+2025-06-16 15:26:57,329 - INFO - Polling stopped for bot @RassilkaGD_bot id=7400671220 - 'Rassilka'
