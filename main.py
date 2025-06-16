@@ -26,6 +26,7 @@ from telethon.tl.types import (
 from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command, CommandStart
+from aiogram.filters.text import Text
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
