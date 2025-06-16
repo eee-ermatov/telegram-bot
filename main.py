@@ -886,7 +886,7 @@ def main_menu() -> types.InlineKeyboardMarkup:
 async def start_command(message: types.Message):
     if message.from_user.id == ADMIN_ID:
         await message.answer(
-            "🤖 *Добро пожаловать в Telegram Account Manager\!*"
+            "🤖 *Добро пожаловать в Telegram Account Manager!*"
             "\n\nВыберите раздел управления:",
             reply_markup=main_menu(),
             parse_mode="MarkdownV2"
@@ -911,7 +911,7 @@ async def accounts_menu(callback: types.CallbackQuery):
 async def add_account_handler(callback: types.CallbackQuery, state: FSMContext):
     await state.set_state(Form.enter_phone)
     await callback.message.answer(
-        "📱 Введите номер телефона \(с кодом страны\):",
+        "📱 Введите номер телефона (с кодом страны):",
         reply_markup=types.InlineKeyboardMarkup(inline_keyboard=[
             [types.InlineKeyboardButton(text="❌ Отмена", callback_data="cancel")]]
         ),
@@ -1192,7 +1192,7 @@ async def list_accounts_handler(callback: types.CallbackQuery):
         accounts = await account_manager.get_all_accounts()
         if not accounts:
             await callback.message.edit_text(
-                "📭 Список аккаунтов пуст\!",
+                "📭 Список аккаунтов пуст!",
                 reply_markup=types.InlineKeyboardMarkup(inline_keyboard=[[types.InlineKeyboardButton(text="🔙 Назад", callback_data="accounts")]]),
                 parse_mode="MarkdownV2"
             )
@@ -1274,7 +1274,7 @@ async def account_posts(callback: types.CallbackQuery):
     
     if not messages:
         await callback.message.edit_text(
-            "📭 Нет сообщений для этого аккаунта\!",
+            "📭 Нет сообщений для этого аккаунта!",
             reply_markup=types.InlineKeyboardMarkup(inline_keyboard=[
                 [types.InlineKeyboardButton(text="🔙 Назад", callback_data=f"account_{phone}")]]
             ),
@@ -1349,7 +1349,7 @@ async def confirm_delete_account(callback: types.CallbackQuery):
          types.InlineKeyboardButton(text="❌ Нет", callback_data="cancel")]
     ])
     await callback.message.edit_text(
-        f"❓ Вы уверены, что хотите удалить аккаунт `{escape_md(phone)}`\?",
+        f"❓ Вы уверены, что хотите удалить аккаунт `{escape_md(phone)}`?",
         reply_markup=keyboard,
         parse_mode="MarkdownV2"
     )
@@ -1657,7 +1657,7 @@ async def show_category_groups(callback: types.CallbackQuery):
         
         if not groups:
             await callback.message.edit_text(
-                f"📭 Список групп в категории '{category}' пуст\!",
+                f"📭 Список групп в категории '{category}' пуст!",
                 reply_markup=types.InlineKeyboardMarkup(inline_keyboard=[
                     [types.InlineKeyboardButton(text="🔙 Назад", callback_data="list_groups")]]
                 ),
@@ -1675,7 +1675,7 @@ async def show_category_groups(callback: types.CallbackQuery):
         )
         
         await callback.message.edit_text(
-            f"📋 Список групп \(*{category}*\):",
+            f"📋 Список групп (*{category}*):",
             reply_markup=keyboard,
             parse_mode="MarkdownV2"
         )
